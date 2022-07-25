@@ -361,7 +361,7 @@ IF(ENABLE_CUDA)
       STRING(REPLACE "\\" "/" NVCUDASAMPLES8_0_ROOT "$ENV{NVCUDASAMPLES8_0_ROOT}")
       CUDA_INCLUDE_DIRECTORIES(
         "${MY_DIR}/include/"
-        "${CUDA_TOOLKIT_ROOT_DIR}/samples/Common"
+        "${CUDA_TOOLKIT_ROOT_DIR}/Samples"
         "${NVCUDASAMPLES_ROOT}/Common"
         "${NVCUDASAMPLES8_0_ROOT}/Common"
       )
